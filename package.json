@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Daily Diet API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,11 @@
   "author": "Carlos A. Flach",
   "license": "ISC",
   "dependencies": {
+    "fastify": "^4.24.3",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "tsx": "^4.6.2"
   }
 }
